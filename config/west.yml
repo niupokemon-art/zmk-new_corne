@@ -21,7 +21,7 @@ manifest:
       import: true
     - name: zmk
       remote: cormoran
-      revision: v0.3-branch+dya
+      revision: main+custom-studio-protocol
       import:
         file: app/west.yml 
     - name: zmk-behavior-runtime-sensor-rotate
