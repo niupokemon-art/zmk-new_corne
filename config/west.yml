@@ -4,6 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cormoran
       url-base: https://github.com/cormoran
+      #增加
     - name: niupokemon-art
       url-base: https://github.com/niupokemon-art
   projects:
