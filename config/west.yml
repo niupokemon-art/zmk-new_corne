@@ -4,26 +4,14 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cormoran
       url-base: https://github.com/cormoran
-      #1
-    - name: niupokemon-art
-      url-base: https://github.com/niupokemon-art
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
-    - name: zmk-feature-custom-settings
-      remote: niupokemon-art
-      revision: main
-      import: true
-    - name: zmk-feature-runtime-combo
-      remote: cormoran
-      revision: main
-      import: true
     - name: zmk
       remote: cormoran
-      revision: main+custom-studio-protocol
-      import:
-        file: app/west.yml 
+      revision: v0.3-branch+dya
+      import: app/west.yml
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
