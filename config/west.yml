@@ -4,17 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cormoran
       url-base: https://github.com/cormoran
-      #增加123
-    - name: niupokemon-art
-      url-base: https://github.com/niupokemon-art
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
-    - name: zmk-feature-custom-settings
-      remote: niupokemon-art
-      revision: main
-      import: true
     - name: zmk-feature-runtime-combo
       remote: cormoran
       revision: main
@@ -38,6 +31,5 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: zmk-v0.3.0.0
-      
   self:
     path: config
